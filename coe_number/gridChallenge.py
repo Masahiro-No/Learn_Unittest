@@ -10,5 +10,3 @@ def gridChallenge(grid):
             anch=ord(grid[row][col]) # ถ้าไม่มีให้กำหนดค่า anch เป็น ord ของตัวอักษรใน col ตำแหน่งที่ row
     
     return "YES" # ถ้าไม่มีให้ return YES
-
-print(gridChallenge([',', '.', '/'])) # YES
