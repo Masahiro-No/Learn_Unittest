@@ -57,3 +57,13 @@ class TestFunnyString(unittest.TestCase):
         string = "๑๒๓๔๕๖๗๘๙๐๑"
         is_funny = funnyString(string)
         self.assertEqual(is_funny, "Not Funny")
+
+    def test_give_x_is_funny(self):
+        string = "x"
+        is_funny = funnyString(string)
+        self.assertEqual(is_funny, "Funny")
+
+    def test_give_xx_is_funny(self):
+        string = "xxx"
+        is_funny = funnyString(string)
+        self.assertEqual(is_funny, "Funny")
