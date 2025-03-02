@@ -27,4 +27,4 @@ print(caesarCipher("1234567890", 6)) # ควรได้ 1234567890
 print(caesarCipher("" , 7)) # ควรได้ ว่าง
 print(caesarCipher("a", 0)) # ควรได้ a
 print(caesarCipher("A", 0)) # ควรได้ A
-print(caesarCipher(",c,c,vsdlss/xkf", 3)) # ควรได้ ,f,f,yvguv/vni
+print(caesarCipher(",c,c,vsdlss/xkf", 3)) # ควรได้ ,f,f,yvgovv/ani
