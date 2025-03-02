@@ -67,3 +67,8 @@ class TestFunnyString(unittest.TestCase):
         string = "xxx"
         is_funny = funnyString(string)
         self.assertEqual(is_funny, "Funny")
+
+    def test_give_3space_is_funny(self):
+        string = "    "
+        is_funny = funnyString(string)
+        self.assertEqual(is_funny, "Funny")

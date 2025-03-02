@@ -20,3 +20,5 @@ print(funnyString("๑๒๓๔๕๖๗๘๙")) # ควรได้ Funny
 print(funnyString("กขคง")) # ควรได้ Not Funny
 print(funnyString("๑๒๓๔๕๖๗๘๙๐๑")) # ควรได้ Not Funny
 print(funnyString("x")) # ควรได้ Funny
+print(funnyString("xxx")) # ควรได้ Funny
+print(funnyString("    ")) # ควรได้ Funny
