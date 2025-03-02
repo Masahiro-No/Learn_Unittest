@@ -64,3 +64,8 @@ class TestAlternate(unittest.TestCase):
         string = "กกขขคค"
         result = alternate(string)
         self.assertEqual(result, 0)
+
+    def test_give_numbers_should_return_8(self):
+        string = "12121212"
+        result = alternate(string)
+        self.assertEqual(result, 8)
