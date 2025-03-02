@@ -9,4 +9,13 @@ def funnyString(s):
     
 
 print(funnyString("acxz")) # ควรได้ Funny
-print(funnyString("bcxz")) # ควรได้ Not Funny
+print(funnyString("zxc")) # ควรได้ Not Funny
+print(funnyString("lmnop")) # ควรได้ Funny
+print(funnyString("123456789")) # ควรได้ Funny
+print(funnyString("247")) # ควรได้ Not Funny
+print(funnyString(".:/")) # ควรได้ Not Funny
+print(funnyString("")) # ควรได้ Funny
+print(funnyString("กขฃ")) # ควรได้ Funny
+print(funnyString("๑๒๓๔๕๖๗๘๙")) # ควรได้ Funny
+print(funnyString("กขคง")) # ควรได้ Not Funny
+print(funnyString("๑๒๓๔๕๖๗๘๙๐๑")) # ควรได้ Not Funny
