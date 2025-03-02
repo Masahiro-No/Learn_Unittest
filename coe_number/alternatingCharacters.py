@@ -12,7 +12,7 @@ print(alternatingCharacters("AAABBB")) # ควรได้ 4
 print(alternatingCharacters("AAABBBAABB")) # ควรได้ 6
 print(alternatingCharacters("AABBAABB")) # ควรได้ 4
 print(alternatingCharacters("ABABABAA")) # ควรได้ 1
-print(alternatingCharacters("XYZXXQWE")) # ควรได้ 4
+print(alternatingCharacters("XYZXXQWE")) # ควรได้ 1
 print(alternatingCharacters("A")) # ควรได้ 0
 print(alternatingCharacters("")) # ควรได้ 0
 print(alternatingCharacters("AB")) # ควรได้ 0
