@@ -6,19 +6,3 @@ def funnyString(s):
     if r == s: # เช็คว่า list r และ s มีค่าเท่ากันหรือไม่
         return "Funny" # ถ้าเท่ากัน return Funny
     return "Not Funny" # ถ้าไม่เท่ากัน return Not Funny
-    
-
-print(funnyString("acxz")) # ควรได้ Funny
-print(funnyString("zxc")) # ควรได้ Not Funny
-print(funnyString("lmnop")) # ควรได้ Funny
-print(funnyString("123456789")) # ควรได้ Funny
-print(funnyString("247")) # ควรได้ Not Funny
-print(funnyString(".:/")) # ควรได้ Not Funny
-print(funnyString("")) # ควรได้ Funny
-print(funnyString("กขฃ")) # ควรได้ Funny
-print(funnyString("๑๒๓๔๕๖๗๘๙")) # ควรได้ Funny
-print(funnyString("กขคง")) # ควรได้ Not Funny
-print(funnyString("๑๒๓๔๕๖๗๘๙๐๑")) # ควรได้ Not Funny
-print(funnyString("x")) # ควรได้ Funny
-print(funnyString("xxx")) # ควรได้ Funny
-print(funnyString("    ")) # ควรได้ Funny

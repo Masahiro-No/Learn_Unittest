@@ -10,21 +10,3 @@ def caesarCipher(s, k):
         else:
             new+=i # ถ้า i ไม่ใช่ตัวอักษร ให้เพิ่ม i ใน new โดยไม่เปลี่ยนแปลง
     return new
-
-print(caesarCipher("middle-Outz", 2)) # ควรได้ okffng-Qwvb
-print(caesarCipher("Hello_World!", 4)) # ควรได้ Lipps_Asvph!
-print(caesarCipher("A", 1)) # ควรได้ B
-print(caesarCipher("Z", 1)) # ควรได้ A
-print(caesarCipher("a", 1)) # ควรได้ b
-print(caesarCipher("z", 1)) # ควรได้ a
-print(caesarCipher("AaZz", 1)) # ควรได้ BbAa
-print(caesarCipher("A", -1)) # ควรได้ Z
-print(caesarCipher("a", -1)) # ควรได้ z
-print(caesarCipher("Z", -1)) # ควรได้ Y
-print(caesarCipher("AaZz", 4)) # ควรได้ EeDd
-print(caesarCipher("   ", 5)) # ควรได้
-print(caesarCipher("1234567890", 6)) # ควรได้ 1234567890
-print(caesarCipher("" , 7)) # ควรได้ ว่าง
-print(caesarCipher("a", 0)) # ควรได้ a
-print(caesarCipher("A", 0)) # ควรได้ A
-print(caesarCipher(",c,c,vsdlss/xkf", 3)) # ควรได้ ,f,f,yvgovv/ani

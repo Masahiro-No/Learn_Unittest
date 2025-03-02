@@ -8,18 +8,3 @@ def alternate(s):
         if not re.search(r"(.)\1", substring): # ถ้าไม่มีตัวอักษรที่ซ้ำกันใน substring
             max_length = max(max_length, len(substring)) # หาความยาวของ substring ที่ยาวที่สุด
     return max_length
-
-print(alternate("beabeefeab")) # ควรได้ 5
-print(alternate("asdcbsdcagfsdbgdfanfghbsfdab")) # ควรได้ 8
-print(alternate("ab")) # ควรได้ 2
-print(alternate("abc")) # ควรได้ 2
-print(alternate("abcabc")) # ควรได้ 4
-print(alternate("")) # ควรได้ 0
-print(alternate("a")) # ควรได้ 0
-print(alternate("aabbcc")) # ควรได้ 0
-print(alternate("   ")) # ควรได้ 0
-print(alternate(".,.,.,")) # ควรได้ 6
-print(alternate("กขกขกขกขก")) # ควรได้ 9
-print(alternate("กกขขคค")) # ควรได้ 0
-print(alternate("12121212")) # ควรได้ 8
-
