@@ -11,3 +11,4 @@ def gridChallenge(grid):
     
     return "YES" # ถ้าไม่มีให้ return YES
 
+print(gridChallenge([',', '.', '/'])) # YES

@@ -64,3 +64,13 @@ class TestGridChallenge(unittest.TestCase):
         ]
         result = gridChallenge(grid)
         self.assertEqual(result, "NO")
+        
+    def test_give_empty_grid_should_return_YES(self):
+        grid = [""]
+        result = gridChallenge(grid)
+        self.assertEqual(result, "YES")
+
+    def test_give_semicolon_dot_slash_should_return_YES(self):
+        grid = [",", ".", "/"]
+        result = gridChallenge(grid)
+        self.assertEqual(result, "YES")
